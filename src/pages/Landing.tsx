@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/pages/landing.css'
+import '../styles/pages/Landing.css'
 import WoodDummy from '../images/wood-dummy.svg'
 import PeopleOnTheGrass from '../images/people-on-the-grass.svg'
 
@@ -43,10 +43,9 @@ function Landing() {
           </div>
 
 
-        <div id="last-content-wrapper">
-            <p id="first-message">BIOQuery</p>
-        </div>
-
+          <div id="last-content-wrapper">
+              <p id="first-message">BIOQuery</p>
+          </div>
       </div>
     </div>
     );
