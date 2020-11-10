@@ -1,0 +1,25 @@
+#page-wiki {
+    width: 100vw;
+    height: 100vw;
+
+    display: flex;
+    align-items: center;
+}
+
+
+#page-landing .content-wrapper {
+    position: relative;
+
+    widows: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 1100;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+#page-wiki .content-wrapper h1 {
+    background-color: black;
+}
