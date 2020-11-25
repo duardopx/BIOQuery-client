@@ -1,54 +1,63 @@
-import React from 'react';
-import '../styles/pages/Landing.css'
-import WoodDummy from '../images/wood-dummy.svg'
-import PeopleOnTheGrass from '../images/people-on-the-grass.svg'
+import React from "react";
+import "../styles/pages/Landing.css";
+import WoodDummy from "../images/wood-dummy.svg";
+import PeopleOnTheGrass from "../images/people-on-the-grass.svg";
 
 function Landing() {
-    return (
+  return (
     <div id="page-landing">
       <div className="content-wrapper">
+        <div id="header-content-wrapper">
+          <main>
+            // <h1>check</h1>
+            <h2 id="title">BIOQuery</h2>
+          </main>
 
-          <div id="header-content-wrapper">
-        <main>
-          <h2 id="title">BIOQuery</h2>
-        </main>
+          <h2 id="central-text">
+            Search for even the smallest <br /> molecules
+          </h2>
+          <p id="line">-</p>
 
-        <h2 id="central-text">Search for even the smallest <br/> molecules</h2>
-              <p id="line">-</p>
+          <img src={WoodDummy} alt="Wood dummy figure" />
 
-              <img src={WoodDummy} alt="Wood dummy figure"/>
+          <input type="text" placeholder="Type anything..." />
 
-              <input type="text" placeholder="Type anything..."/>
+          <p id="fancy">.</p>
+        </div>
 
-              <p id="fancy">.</p>
+        <div id="middle-content-wrapper">
+          <h2 id="first-message">Lots of data</h2>
 
-          </div>
+          <p id="second-message">
+            We provide a quick way to search for gene expressions, Phenotypes,
+            Proteins and more amazing things.
+          </p>
 
-          <div id="middle-content-wrapper">
-              <h2 id="first-message">Lots of data</h2>
+          <button id="view-more">View more</button>
 
-              <p id="second-message">We provide a quick way to search for gene expressions, Phenotypes, Proteins and more amazing things.</p>
+          <h2 id="third-message">The union makes the difference</h2>
 
-              <button id="view-more">View more</button>
+          <img
+            id="peaple-on-the-grass"
+            src={PeopleOnTheGrass}
+            alt="People on the grass"
+          />
 
-              <h2 id="third-message">The union makes the difference</h2>
+          <p id="forth-message">
+            You can contribute and help many people who seek your knowledge.
+            Edit the pages, participate in the forum and make it possible to
+            create amazing things.
+          </p>
 
-              <img id="peaple-on-the-grass" src={PeopleOnTheGrass} alt="People on the grass"/>
+          <button id="participate">PARTICIPATE</button>
+        </div>
 
-              <p id="forth-message">
-                  You can contribute and help many people who seek your knowledge. Edit the pages, participate in the forum and make it possible to create amazing things.
-              </p>
-
-              <button id="participate">PARTICIPATE</button>
-          </div>
-
-
-          <div id="last-content-wrapper">
-              <p id="first-message">BIOQuery</p>
-          </div>
+        <div id="last-content-wrapper">
+          <p id="first-message">BIOQuery</p>
+        </div>
       </div>
     </div>
-    );
+  );
 }
 
 export default Landing;

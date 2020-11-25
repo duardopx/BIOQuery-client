@@ -1,259 +1,249 @@
 #page-landing {
-    width: 100vw;
-    height: 100vw;
+  width: 100vw;
+  height: 100vw;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-
 
 #page-landing .content-wrapper {
-    position: relative;
+  position: relative;
 
-    widows: 100%;
-    max-width: 1100px;
+  widows: 100%;
+  max-width: 1100px;
 
-    height: 100%;
-    max-height: 1100;
+  height: 100%;
+  max-height: 1100;
 
-    display: flex;
-    align-items: flex-start;
-
-
+  display: flex;
+  align-items: flex-start;
 }
 
-#page-landing .content-wrapper #header-content-wrapper
-{
-    position: absolute;
-    width: 1440px;
-    height: 1024px;
-    left: 0px;
-    top: 0px;
+#page-landing .content-wrapper #header-content-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
 
-    background: url(../../images/nordwood-themes.svg)
+  background: url(../../images/nordwood-themes.svg);
 }
 
 #page-landing .content-wrapper #header-content-wrapper #title {
-    position: absolute;
-    width: 371px;
-    height: 148px;
-    left: 92px;
-    top: 37px;
+  position: absolute;
+  width: 371px;
+  height: 148px;
+  left: 92px;
+  top: 37px;
 
-    font-family: Encode Sans Semi Expanded;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 50px;
+  font-family: Encode Sans Semi Expanded;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
 
-    color: #5B5858;
+  color: #5b5858;
 }
 
 #page-landing .content-wrapper #header-content-wrapper #central-text {
-    position: absolute;
-    width: 820px;
-    height: 136px;
-    left: 92px;
-    top: 396px;
+  position: absolute;
+  width: 820px;
+  height: 136px;
+  left: 92px;
+  top: 396px;
 
-    font-family: Roboto Condensed;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 59px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
 
-    color: #2B2B2B;
+  color: #2b2b2b;
 }
-
 
 #page-landing .content-wrapper #header-content-wrapper img {
-    position: absolute;
-    width: 424px;
-    height: 707px;
-    left: 995px;
-    top: 179px;
+  position: absolute;
+  width: 424px;
+  height: 707px;
+  left: 995px;
+  top: 179px;
 }
-
 
 #page-landing .content-wrapper #header-content-wrapper #line {
-    position: absolute;
-    width: 61px;
-    height: 0px;
-    left: 97px;
-    top: 557px;
+  position: absolute;
+  width: 61px;
+  height: 0px;
+  left: 97px;
+  top: 557px;
 
-    border: 5px solid #F56C1F;
+  border: 5px solid #f56c1f;
 }
-
 
 #page-landing .content-wrapper #header-content-wrapper input {
-    position: absolute;
-    left: 97px;
-    top: 700px;
-    width: 400px;
-    height: 40px;
+  position: absolute;
+  left: 97px;
+  top: 700px;
+  width: 400px;
+  height: 40px;
 
-    background: #FFFFFF;
-    border: 3px solid #F56C1F;
-    box-sizing: border-box;
-    border-right: 30px solid #F56C1F;
-    border-radius: 1px;
+  background: #ffffff;
+  border: 3px solid #f56c1f;
+  box-sizing: border-box;
+  border-right: 30px solid #f56c1f;
+  border-radius: 1px;
 }
 
-
 #page-landing .content-wrapper #middle-content-wrapper h2 {
-position: absolute;
-width: 403px;
-height: 91px;
-left: 624px;
-top: 1105px;
+  position: absolute;
+  width: 403px;
+  height: 91px;
+  left: 624px;
+  top: 1105px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 35px;
-line-height: 41px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 41px;
 
-color: #000000;
+  color: #000000;
 }
 
 #page-landing .content-wrapper #middle-content-wrapper #first-top {
-position: absolute;
-width: 1174px;
-height: 101px;
-left: 192px;
-top: 1200px;
+  position: absolute;
+  width: 1174px;
+  height: 101px;
+  left: 192px;
+  top: 1200px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 35px;
-line-height: 41px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 41px;
 
-color: #1E1E1E;
+  color: #1e1e1e;
 }
 
-
 #page-landing .content-wrapper #middle-content-wrapper #second-message {
-    position: absolute;
-    width: 1174px;
-    height: 101px;
-    left: 192px;
-    top: 1200px;
+  position: absolute;
+  width: 1174px;
+  height: 101px;
+  left: 192px;
+  top: 1200px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 35px;
-    line-height: 41px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 41px;
 
-    color: #1E1E1E;
+  color: #1e1e1e;
 }
 
 #page-landing .content-wrapper #middle-content-wrapper #third-message {
-    position: absolute;
-    width: 467px;
-    height: 100px;
-    left: 661px;
-    top: 1598px;
+  position: absolute;
+  width: 467px;
+  height: 100px;
+  left: 661px;
+  top: 1598px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 41px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 41px;
 
-    color: #000000;
+  color: #000000;
 }
 
 #page-landing .content-wrapper #middle-content-wrapper #view-more {
-position: absolute;
-width: 155px;
-height: 36px;
-left: 664px;
-top: 1360px;
+  position: absolute;
+  width: 155px;
+  height: 36px;
+  left: 664px;
+  top: 1360px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 35px;
-/* identical to box height */
-color: #FFFFFF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  /* identical to box height */
+  color: #ffffff;
 
-position: absolute;
-width: 227px;
-height: 66px;
-left: 624px;
-top: 1343px;
+  position: absolute;
+  width: 227px;
+  height: 66px;
+  left: 624px;
+  top: 1343px;
 
-background: #F56C1F;
-border-radius: 10px;
+  background: #f56c1f;
+  border-radius: 10px;
 }
 
 #page-landing .content-wrapper #middle-content-wrapper #peaple-on-the-grass {
-    position: absolute;
-    width: 487px;
-    height: 365px;
-    left: 99px;
-    top: 1601px;
+  position: absolute;
+  width: 487px;
+  height: 365px;
+  left: 99px;
+  top: 1601px;
 }
 
 #page-landing .content-wrapper #middle-content-wrapper #forth-message {
-    position: absolute;
-    width: 658px;
-    height: 155px;
-    left: 664px;
-    top: 1710px;
+  position: absolute;
+  width: 658px;
+  height: 155px;
+  left: 664px;
+  top: 1710px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 33px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
 
-    color: #000000;
+  color: #000000;
 }
 
-
 #page-landing .content-wrapper #middle-content-wrapper #participate {
-    position: absolute;
-    width: 185px;
-    height: 41px;
-    left: 682px;
-    top: 1907px;
+  position: absolute;
+  width: 185px;
+  height: 41px;
+  left: 682px;
+  top: 1907px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 33px;
-    
-    color: #000000;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #000000;
 }
 
 #page-landing .content-wrapper #last-content-wrapper {
-    position: absolute;
-    width: 1440px;
-    height: 247px;
-    left: 0px;
-    top: 2048px;
+  position: absolute;
+  width: 1440px;
+  height: 247px;
+  left: 0px;
+  top: 2048px;
 
-    background: #525B68;
+  background: #525b68;
 }
 
 #page-landing .content-wrapper #last-content-wrapper #first-message {
-    position: absolute;
-    width: 371px;
-    height: 148px;
-    left: 48px;
-    top: 104px;
+  position: absolute;
+  width: 371px;
+  height: 148px;
+  left: 48px;
+  top: 104px;
 
-    font-family: Encode Sans Semi Expanded;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 50px;
+  font-family: Encode Sans Semi Expanded;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
 
-    color: #FFF2F2;
+  color: #fff2f2;
 }
